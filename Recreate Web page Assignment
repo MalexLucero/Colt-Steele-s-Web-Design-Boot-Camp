@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Riley's Webpage</title>
+</head>
+<body>
+    <h1>Riley Pang</h1>
+    <p>Hi! I'm a Norwegian Elkhound Malamute. Woof!</p>
+    <div style="padding-top: 2em; padding-bottom: 2em;"><img src="./img/riley.jpg" alt="Picture of Riley Pang" style="transform: rotate(90deg);"></div>
+    <h2>Some of my favorite places:</h2>
+    <ul>
+        <li>Ocean Beach dog beach in California</li>
+        <li>Salmon Creek in Vancouver Washington</li>
+        <li>Mary S. Young State Park in West Linn</li>
+    </ul>
+
+    <p>Follow me on <a href="http://instagram.com">Instagram</a></p>
+    
+</body>
+</html>
