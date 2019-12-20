@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <h1>Register</h1>
+
+    <form action="#">
+        <!--------------------------------------
+        ----FIRST AND LAST NAME TEXT BOX--------
+        ---------------------------------------->
+
+        <label for="first-name-input">First Name: </label>
+        <input type="text" name="first-name" id="first-name-input" placeholder="John" required>
+        
+
+        <label for="last-name-input">Last Name: </label>
+        <input type="text" name="last-name" id="last-name-input" placeholder="Smith" required>
+
+        
+        <!--------------------------------------
+        ----GENDER SELECTION RADIO BUTTONS-----
+        ---------------------------------------->
+        <div>
+            <label for="male"> Male </label>
+            <input type="radio" name="gender" id="male" value="male">
+            
+
+            <label for="female"> Female </label>
+            <input type="radio" name="gender" id="female" value="female" checked>
+            
+            <label for="gender-selection"> Other </label>
+            <input type="radio" name="gender" id="other" value="other">
+            
+        </div>
+        <!--------------------------------------
+        -------EMAIL AND PASSWORD TEXT BOXES-----
+        ---------------------------------------->
+        <div>
+            <label for="email-input">Email: </label>
+            <input type="email" name="email" id="email-input" placeholder="Your email" required>
+            
+            <label for="password-input">Password: </label>
+            <input type="password" name="password" id="password-input" pattern=".{5,10}" title="Must be between 5-10 characters long">
+        </div>
+        <!--------------------------------------
+        ---------BIRTHDAY SELECTORS------------
+        ---------------------------------------->
+        <div>
+            <fieldset>
+                <legend>Birthday: </legend>
+                <label for="Month"> Month: </label>
+                    <select name="month" id="month-selector">
+                        <option value="Month">Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                    </select>
+                    <label for="day"> Day: </label>
+                    <select name="day" id="day-selector">
+                        <option value="Day">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                
+                    <label for="year"> Year: </label>
+                    <select name="year" id="year-selector">
+                        <option value="Year">Year</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                    </select>
+            </fieldset>
+        </div>
+        <!--------------------------------------
+        -----TERMS AND CONDITIONS CHECKBOX-----
+        ---------------------------------------->
+        <div>
+            <label for="terms-checkbox">I agree to the terms and Conditions</label>
+            <input type="checkbox" name="agreed" id="terms-checkbox">
+        </div>
+        <!--------------------------------------
+        -------------SUBMIT BUTTON--------------
+        ---------------------------------------->        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
