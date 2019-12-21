@@ -1,0 +1,26 @@
+
+/* Global */
+h1 {
+    text-align: center;
+}
+
+table   {  
+    margin: auto;
+}
+
+/* Gives size to table data element so it can be styled with border property */
+td {
+    width: 100px;
+    height: 100px;
+}
+
+/* Styles borders of table data element to form a tic tac toe board */
+.vertical {
+    border-left: 2px solid  black;
+    border-right: 2px solid  black;
+}
+
+.horizontal {
+    border-top: 2px solid  black;
+    border-bottom: 2px solid  black;
+}
