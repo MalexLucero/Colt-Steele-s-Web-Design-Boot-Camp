@@ -1,0 +1,52 @@
+
+/* layout */
+section {
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+    border: 20px solid #99AEBA;
+    padding: 0px 20px;
+}
+
+    article{
+        margin-top:1.5em;
+        margin-bottom:1.5em;
+    }
+
+
+/* Typography */
+
+
+.blog-post-date {
+    color: rgb(87, 187, 226);
+    text-transform:uppercase;
+    letter-spacing: .2rem;
+}
+
+h2 {
+    font-family: "Open Sans";
+    color: #02243d;
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+p {
+    font-family: "Lato";
+    color: #02243d;
+}
+
+/* Targets the 2nd paragraph in the parent element. 
+Adds left border and padding to the 
+2nd paragraph element in the articles */
+
+p:nth-of-type(2) {
+    border-left: .4rem solid #99AEBA;
+    padding-left: .6rem;
+}
+
+hr {
+    border-top: 1px solid #99AEBA;
+}
+
+
