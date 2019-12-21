@@ -1,0 +1,20 @@
+/* Creats a 3 X 3 layout with the remaining 10% space used as margin */
+
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+/* Styles the font, fontsize, weight, and transforms the paragraph at the top of the page to display in uppercase. 
+It also adds a border at the bottom of the paragraph and gives it some padding to push it down. */
+p {
+    font-family: Raleway;
+    margin-left: 1.66%;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+}
