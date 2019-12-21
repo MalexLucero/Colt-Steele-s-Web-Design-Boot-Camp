@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+        <article> 
+            <p class="blog-post-date">December 20 2019</p>
+
+            <h2>This is my first article</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio possimus labore cupiditate 
+                voluptatem dicta? Dolore doloremque, voluptatibus assumenda tempora ad cumque. Cum sunt 
+                rerum vero? Harum ab, quam nihil esse excepturi ducimus exercitationem alias voluptatum 
+                odit sequi libero minima tempora vero id, minus, molestiae accusantium! Corporis porro 
+                unde ut hic.
+            </p>
+
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis, fugiat officiis 
+                fuga dicta repellat molestiae laboriosam iure provident officia culpa ipsa doloremque 
+                eveniet quos voluptates obcaecati distinctio nisi sequi. Facere natus sint ratione quam 
+                laudantium placeat alias accusantium accusamus.
+            </p>
+
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque animi natus rerum hic, 
+                inventore quasi voluptatibus dolor? Dolor consequatur iusto nisi quam delectus velit! 
+                Quaerat repudiandae eos illo quidem in.
+            </p>
+        </article>
+
+        <hr>
+ 
+        <article>
+            <p class="blog-post-date">December 21 2019</p>
+
+            <h2>This is my second article</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio possimus labore cupiditate 
+                voluptatem dicta? Dolore doloremque, voluptatibus assumenda tempora ad cumque. Cum sunt 
+                rerum vero? Harum ab, quam nihil esse excepturi ducimus exercitationem alias voluptatum 
+                odit sequi libero minima tempora vero id, minus, molestiae accusantium! Corporis porro 
+                unde ut hic.
+            </p>
+
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis, fugiat officiis 
+                fuga dicta repellat molestiae laboriosam iure provident officia culpa ipsa doloremque 
+                eveniet quos voluptates obcaecati distinctio nisi sequi. Facere natus sint ratione quam 
+                laudantium placeat alias accusantium accusamus.
+            </p>
+
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque animi natus rerum hic, 
+                inventore quasi voluptatibus dolor? Dolor consequatur iusto nisi quam delectus velit! 
+                Quaerat repudiandae eos illo quidem in.
+            </p>
+        </article>
+    </section>
+</body>
+</html>
